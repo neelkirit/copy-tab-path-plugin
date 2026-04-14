@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>com.neelkirit.copy-tab-path</id>
+    <name>Copy Tab Path</name>
+    <version>1.0.0</version>
+    <vendor>neelkirit</vendor>
+
+    <description><![CDATA[
+        Option+Click (Mac) or Alt+Click (Windows/Linux) on an editor tab to copy
+        the file's project-relative path to the clipboard.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService
+            serviceImplementation="com.neelkirit.copytabpath.CopyTabPathService"/>
+        <postStartupActivity
+            implementation="com.neelkirit.copytabpath.CopyTabPathStartup"/>
+    </extensions>
+</idea-plugin>

@@ -1,0 +1,21 @@
+# Build outputs
+build/
+out/
+
+# Gradle
+.gradle/
+
+# IntelliJ Platform SDK cache
+.intellijPlatform/
+
+# IDE settings
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Kotlin
+.kotlin/
+
+# macOS
+.DS_Store
