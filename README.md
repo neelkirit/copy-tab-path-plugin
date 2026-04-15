@@ -1,3 +1,15 @@
+<script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
+<script>
+  // Please, replace #yourelement with a real element id on your webpage
+  MarketplaceWidget.setupMarketplaceWidget('install', 31275, "#yourelement");
+</script>
+
+<script src="https://plugins.jetbrains.com/assets/scripts/mp-widget.js"></script>
+<script>
+  // Please, replace #yourelement with a real element id on your webpage
+  MarketplaceWidget.setupMarketplaceWidget('card', 31275, "#yourelement");
+</script>
+
 # Copy Tab Path Plugin
 
 Option+Click (Mac) or Alt+Click (Windows/Linux) on an editor tab to copy the file's project-relative path to the clipboard.
