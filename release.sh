@@ -4,7 +4,7 @@ set -euo pipefail
 GRADLE_FILE="build.gradle.kts"
 PLUGIN_XML="src/main/resources/META-INF/plugin.xml"
 
-current_version=$(grep -oP 'version = "\K[0-9]+\.[0-9]+\.[0-9]+' "$GRADLE_FILE")
+current_version=$(sed -n 's/^version = "\([0-9]*\.[0-9]*\.[0-9]*\)"/\1/p' "$GRADLE_FILE")
 if [ -z "$current_version" ]; then
   echo "Error: could not read version from $GRADLE_FILE"
   exit 1
