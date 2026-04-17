@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.neelkirit.copy-tab-path</id>
-    <name>Copy Tab Path</name>
+    <name>Copy File Path Shortcut</name>
     <version>1.0.0</version>
     <vendor>neelkirit</vendor>
 
