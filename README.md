@@ -1,4 +1,4 @@
-# Copy Tab Path Plugin
+# Copy Tab Path Plugindd
 
 Option+Click (Mac) or Alt+Click (Windows/Linux) on an editor tab to copy the file's project-relative path to the clipboard.
 
